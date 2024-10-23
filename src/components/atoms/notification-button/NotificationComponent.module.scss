@@ -1,0 +1,30 @@
+@use "../../../assets/sass/fonts" as font;
+@use "../../../assets/sass/colors" as color;
+
+.customButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+  display: flex; 
+  flex-direction: row; 
+  height: 100%;
+  align-items: center;
+  position: relative;
+  border: 0px solid red;
+}
+
+.customDot{
+  background-color: color.$background-aqua;
+  color: black;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: 11px;
+  right: 6px;
+}

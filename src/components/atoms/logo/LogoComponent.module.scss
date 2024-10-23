@@ -1,0 +1,20 @@
+@use "../../../assets/sass/colors" as color;
+
+.logo{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  letter-spacing: 4px;
+  color: color.$background-aqua;
+  border: 0px solid red;
+
+  .logoSpan{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 4px;
+    color: color.$background-aqua;
+  }
+}

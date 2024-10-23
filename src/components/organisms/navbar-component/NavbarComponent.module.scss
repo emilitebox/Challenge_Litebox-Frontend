@@ -1,0 +1,45 @@
+@use "../../../assets/sass/colors" as color;
+
+.navbar{
+  width: 100%;
+  height: 40px;
+  margin-top: 32px;
+  border: 0px solid red;
+  display: flex;
+
+  .divLogo{
+    border: 0px solid red;
+    width: 70%;
+    display: flex; 
+    justify-content: left; 
+    align-items: center;
+    height: 100%;
+  }
+
+  .divButtons{
+    border: 0px solid red;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.logo{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  font-size: 34;
+  line-height: 34px;
+  letter-spacing: 4px;
+  color: color.$background-aqua;
+}
+
+.logoSpan{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 34;
+  line-height: 34px;
+  letter-spacing: 4px;
+  color: color.$background-aqua;
+}
